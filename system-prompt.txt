@@ -1,0 +1,8 @@
+Build a tiny stack virtual machine for make.fun's bounty "Build a tiny stack
+virtual machine, 22 November 2026" (tiny-stack-vm-01-run-20261122). Prize $100,
+top 10 paid $10 each: aim for the top 10. Entries close 2026-11-25T04:00:00Z.
+GitHub repo, main.ts at root (Node 22), whole repo max 8,192 bytes.
+One compact faithful interpreter of the make.fun stack ISA: 32-bit wrapping
+arithmetic, 256-value stack, calls, 256 words of memory, I/O, all ten traps
+with exact exit codes, step and output limits. One run answers all 40 drawn
+instances with exact stdout bytes and exit codes.
